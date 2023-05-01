@@ -1,0 +1,221 @@
+/* import font */
+@import url('https://fonts.cdnfonts.com/css/forma-djr-banner');
+@import url('https://fonts.cdnfonts.com/css/myriad-pro-5');
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: rgb(240, 245, 249);
+    background: linear-gradient(324deg, rgba(240, 245, 249, 1) 0%, rgba(210, 225, 246, 1) 100%);
+}
+
+nav {
+    margin-top: 10px;
+    background-color: white;
+    font-family: 'Forma DJR Display', sans-serif;
+}
+
+.navbar-nav .nav-link {
+    color: #013365 !important;
+}
+
+.nav-link-margin {
+    margin-right: 10px;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_h2 {
+    text-align: center;
+    font-family: 'Forma DJR Banner', sans-serif;
+    color: #013365 !important;
+}
+
+.chatgpt-textbox {
+    border-radius: 10px;
+}
+
+.tip-card {
+    border-radius: 10px;
+    background-color: #01336537;
+    padding: 15px;
+    width: 350px !important;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 40px;
+}
+
+h6 {
+    text-align: center;
+    font-family: 'Forma DJR Banner', sans-serif;
+    font-size: 18px;
+    color: #013365 !important;
+}
+
+.text-secondary {
+    color: #013365 !important;
+    font-weight: 200 !important;
+}
+
+.btn-primary {
+    border-radius: 50px;
+    background-color: #FF9C03 !important;
+    border-color: #FF9C03 !important;
+    font-family: 'Forma DJR Text', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.btn-secondary {
+    border-radius: 10px;
+    background-color: #013365 !important;
+    border-color: #013365 !important;
+    font-family: 'Forma DJR Text', sans-serif;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    transition: 0.15s linear;
+}
+
+.btn-third {
+    background-color: rgb(86, 119, 153) !important;
+    border-color: rgb(86, 119, 153) !important;
+}
+
+.swiper-slide {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px !important;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 200px !important;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+}
+
+.swiper-button-prev {
+    margin-left: 100px;
+}
+
+.swiper-button-next {
+    margin-right: 100px;
+}
+
+.swiper {
+    left: -10px;
+    margin-right: -20px !important;
+}
+
+.swiper-slide-span {
+    background-color: #013365;
+    width: 100% !important;
+    color: white;
+    padding: 10px;
+    font-family: 'Forma DJR Banner', sans-serif;
+    font-size: 18px;
+}
+
+.card-square {
+    position: relative;
+    width: 370px;
+    height: 370px;
+    border-radius: 10px;
+    background-image: url('https://picsum.photos/370/370');
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.card-large {
+    position: relative;
+    width: 755px;
+    height: 370px;
+    border-radius: 10px;
+    background-image: url('https://picsum.photos/760/370');
+    background-size: cover;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.bg-overlay {
+    position: absolute;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.0) 0%, rgba(255, 255, 255, 0.4) 25%, rgba(255, 255, 255, 0.75) 40%, rgba(255, 255, 255, 0.9) 55%, rgba(255, 255, 255, 1) 80%);
+    height: 100%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 50px;
+}
+
+.infinity_item_category {
+    margin-left: 10px;
+    font-family: 'Myriad Pro', sans-serif;
+    font-weight: 200;
+}
+
+.infinity-item-overlay-content {
+    color: #013365;
+    position: absolute;
+    bottom: 0;
+    max-width: 200px;
+}
+
+.infinity-item-overlay-text {
+    font-weight: 600;
+    margin-top: 5px;
+}
+
+.infinity-item-icon {
+    margin-right: 20px;
+}
+
+.infinity-item-icon-row {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.card-square:hover {
+    transition: 0, 3s linear;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-large:hover {
+    transition: 0, 3s linear;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-white:hover {
+}
+
+.infinity_scroll_item{
+    margin-bottom:14px;
+}
+
+.infinity_scroll_item_row{
+    visibility: hidden !important;
+}
+
+.card-white{
+    background-color: white !important;
+    background-image: none;
+}
+
+.infinity-item-overlay-content-card-white {
+    color: #013365;
+    position: relative;
+    bottom: 0;
+}
