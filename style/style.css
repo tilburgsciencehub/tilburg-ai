@@ -1,6 +1,7 @@
 /* import font */
 @import url('https://fonts.cdnfonts.com/css/forma-djr-banner');
 @import url('https://fonts.cdnfonts.com/css/myriad-pro-5');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 
 body {
     height: 100%;
@@ -37,7 +38,8 @@ nav {
 
 .main_h2 {
     text-align: center;
-    font-family: 'Forma DJR Banner', sans-serif;
+    font-family: 'Forma DJR Display', sans-serif;
+    font-weight: 500;
     color: #013365 !important;
 }
 
@@ -54,11 +56,20 @@ nav {
 }
 
 h6 {
-    text-align: center;
     font-family: 'Forma DJR Banner', sans-serif;
     font-size: 18px;
     color: #013365 !important;
 }
+
+h2,
+h1,
+h4,h3 {
+    font-family: 'Forma DJR Banner', sans-serif;
+    color: #013365 !important;
+    font-weight: 400;
+}
+
+
 
 .text-secondary {
     color: #013365 !important;
@@ -198,18 +209,17 @@ h6 {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.card-white:hover {
+.card-white:hover {}
+
+.infinity_scroll_item {
+    margin-bottom: 14px;
 }
 
-.infinity_scroll_item{
-    margin-bottom:14px;
-}
-
-.infinity_scroll_item_row{
+.infinity_scroll_item_row {
     visibility: hidden !important;
 }
 
-.card-white{
+.card-white {
     background-color: white !important;
     background-image: none;
 }
@@ -218,4 +228,85 @@ h6 {
     color: #013365;
     position: relative;
     bottom: 0;
+}
+
+.main_article {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 25px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: #013365 !important;
+    font-size: 16px;
+}
+
+.icon-list {
+    list-style: none;
+    display: flex;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0;
+}
+
+.icon-list li {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.icon-list li i {
+    margin-right: 5px;
+    color: #013365;
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: #01336548;
+}
+
+.sub-ul {
+    list-style: none;
+}
+
+.sidebar_article_menu {
+    font-family: 'Montserrat', sans-serif;
+    color: #013365 !important;
+    font-size: 16px;
+    list-style: none;
+    margin-left:-40px;
+}
+
+.sidebar_related_menu {
+    font-family: 'Montserrat', sans-serif;
+    color: #013365 !important;
+    font-size: 16px;
+    list-style: none;
+    margin-left:-35px;
+}
+
+.sidebar_one{
+    background-color: rgba(255, 255, 255, 0.568);
+    padding: 25px;
+    height:fit-content;
+    border-top-left-radius: 10px;
+}
+
+.sidebar_two{
+    background-color: rgba(185, 210, 233, 0.568);
+    padding: 25px;
+    height:fit-content;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.related-articles-container {
+    display: flex;
+    align-items: center;
+    height: fit-content;
 }
